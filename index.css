@@ -57,12 +57,13 @@ body{
 .header{
     width: 100%;
     background: grey;
-    
+    position : relative;
 }
 .header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
 .header .container img{
     width: 60px;
